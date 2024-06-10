@@ -1,0 +1,10 @@
+[unit]
+Description=Mount /dev/sda as USB mass storage gadget
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/usb_mass_storage_gadget.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
