@@ -1,8 +1,8 @@
-## Orange Pi Zero 2W USB Mass Storage Gadget ##
+# Orange Pi Zero 2W USB Mass Storage Gadget #
 
 This repo contains .deb packages to install a kernel and supporting packages to the Orange Pi Zero 2W device.  This kernel is configured to allow the device to function as a USB Mass Storage gadget.  There is also a script to configure the device as a mass storage device, and a systemd unit file to run the script.
 
-# Usage #
+## Usage ##
 1. Install .deb packages within "packages" folder.
 2. Edit "usb_mass_storage_gadget.sh", changing "/dev/sda" to be whatever target you want to hold your data (can be a raw device, a partition, a file, etc).  In my case I'm writing to an attached raw device /dev/sda.
 3. Copy "usb_mass_storage_gadget.sh" to "/usr/local/bin/" and make it executable with "chmod +x /usr/local/bin/usb_mass_storage_gadget.sh".
