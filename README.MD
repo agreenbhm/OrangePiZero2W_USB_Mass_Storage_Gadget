@@ -13,7 +13,7 @@ This repo contains .deb packages to install a kernel and supporting packages to 
 Done.  If you find it's not working examine dmesg on the Orange Pi to see if there are any errors pertaining to "gadget".
 
 Credits:
-*http://www.orangepi.org/orangepibbsen/forum.php?mod=viewthread&tid=145208&extra=page%3D1 # info for the kernel build process
-*https://popovicu.com/posts/make-your-own-usb-storage-embedded-linux/#project-breakdown # info for the configuration process
+* http://www.orangepi.org/orangepibbsen/forum.php?mod=viewthread&tid=145208&extra=page%3D1 # info for the kernel build process
+* https://popovicu.com/posts/make-your-own-usb-storage-embedded-linux/#project-breakdown # info for the configuration process
 
 
